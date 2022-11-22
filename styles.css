@@ -4,13 +4,13 @@
     padding: 0;
     margin: 0;
     font-family: 'Roboto Mono', monospace;
-    font-weight: 300;
+    font-weight: 400;
     box-sizing: border-box;
 }
 
 h1{
     font-size: 4rem;
-    font-weight: ;
+    font-weight: 700;
 }
 
 body{
@@ -42,4 +42,5 @@ input{
 button{
     margin-top: 2em;
     padding: 0.35em;
+    border-radius: 20px;
 }
