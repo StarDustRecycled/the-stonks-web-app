@@ -4,15 +4,17 @@
     padding: 0;
     margin: 0;
     font-family: 'Roboto Mono', monospace;
+    font-weight: 300;
     box-sizing: border-box;
 }
 
 h1{
     font-size: 4rem;
-    
+    font-weight: ;
 }
 
 body{
+    background-color: #fafafa;
     text-align: center;
     overflow: visible;
 }
@@ -33,6 +35,11 @@ label{
     flex: 2;
 }
 
+input{
+    border-radius: 20px;
+}
+
 button{
     margin-top: 2em;
+    padding: 0.35em;
 }
