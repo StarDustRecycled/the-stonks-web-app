@@ -1,8 +1,38 @@
-body{
-    text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto Mono', monospace;
+    box-sizing: border-box;
 }
 
+h1{
+    font-size: 4rem;
+    
+}
+
+body{
+    text-align: center;
+    overflow: visible;
+}
+main{
+    margin: 8rem auto ;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    max-width: 70%;
+}
 label{
-    display: block;
+    display: flex;
     padding: 0.5em;
+}
+
+#output-container{
+    padding: 1em;
+    flex: 2;
+}
+
+button{
+    margin-top: 2em;
 }

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,19 +8,27 @@
     <title>|Stonks-Check|</title>
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
     <h1>Stonks-Check 📈 📉 </h1>
-    <label for="initial-price">
-        Stocks bought at 
-        <input type="number" name="initial-price" id="initial-price">
-    </label>
-    <label for="stock-qty">
-        Quantity of stocks
-        <input type="number" name="initial-price" id="initial-price">
-    </label>
-    <label for="current-price">
-        Stocks to be sold at 
-        <input type="number" name="initial-price" id="current-price">
-    </label>
+    <main>    
+        <label for="initial-price">
+            Stocks bought at
+        </label>
+            <input type="number" name="initial-price" id="initial-price">
+        <label for="stock-qty">
+            Quantity of stocks
+        </label>
+            <input type="number" name="stock-qty" id="stock-qty">
+        <label for="current-price">
+            Stocks to be sold at
+        </label>
+            <input type="number" name="current-price" id="current-price">
+        <button type="submit" id="submit-btn">Let's see!</button>
+    </main>
+    <div id="output-container">
+    </div>
+    <script src="./script.js"></script>
 </body>
+
 </html>
