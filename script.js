@@ -34,7 +34,7 @@ function calculateProfitAndLoss(initial, quantity, current) {
       `Hey, the profit is ${profit} and the percent is ${profitPercentage}%`
     );
   } else {
-    showOutput(`Keep hustlin!`);
+    showOutput(`OK you may try again!`);
   }
 }
 
