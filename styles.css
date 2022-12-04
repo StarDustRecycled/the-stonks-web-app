@@ -37,6 +37,7 @@ label{
 
 input{
     border-radius: 20px;
+    padding: .25em;
 }
 
 button{
